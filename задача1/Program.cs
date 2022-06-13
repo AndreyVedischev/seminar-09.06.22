@@ -7,4 +7,4 @@ Clear();
 
 int number=new Random().Next(100,1000);
 WriteLine(number);
-Write($"Numer without 2nd digit = {number/100}{number%10}");
+Write($"Число без второй цыфры = {number/100}{number%10}");
